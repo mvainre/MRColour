@@ -6,7 +6,6 @@
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_color_gradientn(), used respectively when discrete is TRUE or FALSE
 #'
-#' @export
 scale_color_mrc <- function(palette = "primary", discrete = TRUE, reverse = FALSE, ...) {
   pal <- mrc_pal(palette = palette, reverse = reverse)
 

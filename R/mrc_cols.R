@@ -2,7 +2,6 @@
 #'
 #' @param ... Character names of mrc_cols
 #'
-#' @export
 mrc_cols <- function(...) {
   cols <- c(...)
 
