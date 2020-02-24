@@ -87,3 +87,18 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   theme_ipsum(grid=FALSE, axis_text_size = 6)
 ```
 
+# Installing the package
+
+Start by installing the devtool's package
+```{r devtoolsInstall, eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+install.packages("devtools")
+```
+Then download this package from github
+```{r GithubDL, eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+library(devtools)
+install_github("mvainre/MRColour")
+```
+Now you're ready to use it:
+```{r Run, message=FALSE, warning=FALSE, eval=FALSE,  include=TRUE}
+library(MRColour)
+```

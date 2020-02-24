@@ -89,7 +89,7 @@ ggplot(mtcars, aes(hp, mpg)) +
   theme_ipsum(grid=FALSE)
 ```
 
-![plot of chunk unnamed-chunk-16](figure/unnamed-chunk-16-1.png)
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
 
 
 ```r
@@ -99,7 +99,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Species)) +
   theme_ipsum(grid=FALSE)
 ```
 
-![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17-1.png)
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
 
 
 ```r
@@ -112,7 +112,7 @@ ggplot(iris.sub, aes(Sepal.Width, Sepal.Length, color = Species)) +
   theme_ipsum(grid=FALSE)
 ```
 
-![plot of chunk unnamed-chunk-18](figure/unnamed-chunk-18-1.png)
+![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
 
 
 ```r
@@ -123,7 +123,7 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   theme_ipsum(grid=FALSE, axis_text_size = 6)
 ```
 
-![plot of chunk unnamed-chunk-19](figure/unnamed-chunk-19-1.png)
+![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png)
 
 
 ```r
@@ -134,7 +134,7 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   theme_ipsum(grid=FALSE, axis_text_size = 6)
 ```
 
-![plot of chunk unnamed-chunk-20](figure/unnamed-chunk-20-1.png)
+![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
 
 
 ```r
@@ -145,5 +145,23 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   theme_ipsum(grid=FALSE, axis_text_size = 6)
 ```
 
-![plot of chunk unnamed-chunk-21](figure/unnamed-chunk-21-1.png)
+![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
 
+# Installing the package
+
+Start by installing the devtool's package
+
+```r
+install.packages("devtools")
+```
+Then download this package from github
+
+```r
+library(devtools)
+install_github("mvainre/MRColour")
+```
+Now you're ready to use it:
+
+```r
+library(MRColour)
+```
